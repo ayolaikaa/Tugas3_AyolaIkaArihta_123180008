@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:id="@+id/Item"
+    android:background="@drawable/bgr">
+    <ImageView
+        android:id="@+id/ivAlbum"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/border"
+        />
+
+    <TextView
+        android:id="@+id/tvNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Border: Day One"
+        android:fontFamily="casual"
+        android:layout_below="@id/ivAlbum"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="5dp"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/tvDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="monospace"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/tvNama"
+        android:text="Border: Day One is the debut extended play (EP) by Enhypen. It was released through Belift Lab, Genie Music and Stone Music Entertainment on November 30, 2020. The album consists of six tracks, including the lead single Given-Taken." />
+
+</RelativeLayout>
